@@ -8,23 +8,27 @@ public class GridHandler : MonoBehaviour {
 	//Image (public)
 	//Public so we can drag and drop in inspector
 	//ref to the image only
-	public Sprite[] testImage;
+	public Sprite[] imageForGrid;
+	public string[] textForGrid;
 
 	//Grid (public)
 	//Public so we can drag and drop in inspector
 	//ref to the grid only
 	//the UI image element
-	public Image[] gridSpace;
+	public Button[] gridSpace;
 
 	// Use this for initialization
 	void Start () {
 		//Put image into grid
 		//gridSpace sprite property setting equal to new image
-		for (int i = 0; i < testImage.Length; i++)
+		for (int i = 0; i < imageForGrid.Length; i++)
         {
 			//each image into each gridspace
-            gridSpace[i].sprite = testImage[i];
+            gridSpace[i].GetComponentInChildren<Image>().sprite = imageForGrid[i];
+			//each text into each gridspace
+			gridSpace[i].GetComponentInChildren<Text>().text = textForGrid[i];
         }
+		
 	}
 	
 	

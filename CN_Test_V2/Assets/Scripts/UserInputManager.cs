@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UserInputManager : MonoBehaviour {
 
-	public void ClickButton(){
-		Debug.Log("Button Clicked");
+	public void ClickButton(Text buttonText){
+		Debug.Log(buttonText.text);
 	}
 }
