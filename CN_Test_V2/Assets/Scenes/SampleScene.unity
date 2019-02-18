@@ -166,6 +166,7 @@ MonoBehaviour:
   mainGridTiles:
   - {fileID: 114205294631904276, guid: 124b26cdab8f98644ba5e5efa94a86fa, type: 2}
   - {fileID: 114723249643986466, guid: c28cc0054039ca0499e5bd39ed51ee23, type: 2}
+  - {fileID: 114723249643986466, guid: 22b295e2fb4888a4487a68643f88105b, type: 2}
 --- !u!224 &327514159
 RectTransform:
   m_ObjectHideFlags: 0
