@@ -38,6 +38,8 @@ public Button[] mainGridTiles;
 
 	// Use this for initialization
 	void Start () {
+		//initialize the TTS set the language we want to use
+		TTSManager.SetLanguage (TTSManager.ENGLISH);
 		//Put image into grid
 		//gridSpace sprite property setting equal to new image
 		for (int i = 0; i < mainGridTiles.Length; i++)
@@ -47,7 +49,7 @@ public Button[] mainGridTiles;
 			mainGridTiles[i].GetComponentInChildren<Image>().sprite;
 			//each text into each gridspace
 			mainGridSpace[i].GetComponentInChildren<Text>().text = 
-			 mainGridTiles[i].GetComponentInChildren<Text>().text;
+			mainGridTiles[i].GetComponentInChildren<Text>().text;
         }
 		
 	}
@@ -96,7 +98,7 @@ void Update(){
 	}
 
 	public void PlaySoundButton(){
-			//Empty at the start
+		//Empty all at the start
 		output.Clear();
 		//loop tru the tiles in the top row and take all the strings from them
 		for (int i = 0; i < topGridTiles.Count; i++){
@@ -105,6 +107,7 @@ void Update(){
 		//tts goes here
 		//TTSManager.Speak("Hello World", true);
 		Debug.Log(string.Join(" ", output.ToArray()));
+		//TTSManager.Speak(string.Join(" ", output.ToArray()));
 		
 	}
 }
