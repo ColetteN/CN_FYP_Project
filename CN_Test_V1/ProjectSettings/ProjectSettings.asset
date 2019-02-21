@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 4103c3045316dae47bc4fc7ad7c180b2
+  productGUID: 11820e16224bbf14c9c0e443667621c4
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: CN_Test_V1
+  productName: CN_Test_V2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -619,8 +619,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 37e892d5-468d-4b41-b058-de3cc51db594
-  projectName: CN_Test_V1
+  cloudProjectId: 5ec33334-a56e-4a42-98e1-1cb98c14bf9e
+  projectName: CN_Test_V2
   organizationId: unity_eyqcmlzstoiheg
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
