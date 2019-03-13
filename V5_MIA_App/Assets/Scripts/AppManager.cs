@@ -115,4 +115,14 @@ void Update(){
 		ttsSpeech.GetComponent<TTSmanager>().PlaySpeech();
 		
 	}
+
+	// public void Play(){
+	// 	//Empty all at the start
+	// 	output.Clear();
+	
+	// 	//tts goes here
+		
+		
+		
+	// }
 }
