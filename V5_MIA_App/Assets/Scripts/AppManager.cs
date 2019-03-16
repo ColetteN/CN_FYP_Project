@@ -12,6 +12,7 @@ public class AppManager : MonoBehaviour {
 //empty tile handy for resetting
 public Button emptyTile;
 
+[Tooltip("Text To Speech variable")]
 //TTS gameobject
 public GameObject ttsSpeech;
 
@@ -53,9 +54,10 @@ public Button[] mainGridTiles;
 			//each text into each gridspace
 			mainGridSpace[i].GetComponentInChildren<Text>().text = 
 			mainGridTiles[i].GetComponentInChildren<Text>().text;
-        }
-		
-	}
+        }	
+	}//close the start()
+
+
 
 void Update(){
 
@@ -72,14 +74,17 @@ void Update(){
             topGridTiles[i].GetComponentInChildren<Text>().text;
         }
 		
-	}
+	}//close the update()
+
+
+/////FUNCTIONS///////////////////////////////////////////////////
 
 	//when you click the button tile, push tile into the array
 	public void AddButton(Button tile){
 		//add tile to the array	
-       topGridTiles.Add(tile);
-		
+       topGridTiles.Add(tile);	
 	}
+
 
 	//function to remove current tile in the top grid
 	public void RemoveButton(int curTile){
@@ -96,9 +101,9 @@ void Update(){
 		emptyTile.GetComponentInChildren<Image>().sprite;
 		//do the same for the text
 		topGridSpace[topGridTiles.Count].GetComponentInChildren<Text>().text = 
-		emptyTile.GetComponentInChildren<Text>().text;
-		
+		emptyTile.GetComponentInChildren<Text>().text;	
 	}
+
 
 	public void PlaySoundButton(){
 		//Empty all at the start
@@ -112,17 +117,16 @@ void Update(){
 
 		//tts goes here
 		ttsSpeech.GetComponent<TTSmanager>()._inputText = string.Join("", output.ToArray());
-		ttsSpeech.GetComponent<TTSmanager>().PlaySpeech();
-		
+		ttsSpeech.GetComponent<TTSmanager>().PlaySpeech();		
 	}
 
-	// public void Play(){
-	// 	//Empty all at the start
-	// 	output.Clear();
-	
-	// 	//tts goes here
-		
-		
-		
+
+//Play TTS when single tile is tapped
+	// public void playTTS(string text){
+	// 	ttsSpeech.GetComponent<TTSmanager>()._inputText = text;
+	// 	ttsSpeech.GetComponent<TTSmanager>().PlaySpeech();
+	// Debug.Log(text);	
 	// }
-}
+
+
+}//class closed here
