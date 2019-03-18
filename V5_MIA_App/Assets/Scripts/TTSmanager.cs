@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TTSmanager : MonoBehaviour {
     private bool _initializeError = false;
-    public string _inputText = "";
+    public string _inputText = " ";
     private int _speechId = 0;
     private float _pitch = 1f, _speechRate = 1f;
     private int _selectedLocale = 0;

@@ -122,11 +122,11 @@ void Update(){
 
 
 //Play TTS when single tile is tapped
-	// public void playTTS(string text){
-	// 	ttsSpeech.GetComponent<TTSmanager>()._inputText = text;
-	// 	ttsSpeech.GetComponent<TTSmanager>().PlaySpeech();
-	// Debug.Log(text);	
-	// }
+	public void playTTS(string text){
+		ttsSpeech.GetComponent<TTSmanager>()._inputText = text;
+		ttsSpeech.GetComponent<TTSmanager>().PlaySpeech();
+	Debug.Log("text");	
+	}
 
 
 }//class closed here
