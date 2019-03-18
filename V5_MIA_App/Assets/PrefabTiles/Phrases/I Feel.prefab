@@ -121,7 +121,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I Feel
+  m_Text: I feel
 --- !u!114 &114861437261724278
 MonoBehaviour:
   m_ObjectHideFlags: 1
