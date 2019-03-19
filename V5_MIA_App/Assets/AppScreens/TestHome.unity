@@ -392,7 +392,7 @@ Prefab:
     - target: {fileID: 114071776316616298, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224568099930665910, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
@@ -999,7 +999,7 @@ Prefab:
     - target: {fileID: 114071776316616298, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224568099930665910, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
@@ -1380,7 +1380,7 @@ Prefab:
     - target: {fileID: 114071776316616298, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224568099930665910, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
@@ -1804,6 +1804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emptyTile: {fileID: 114996474775891552, guid: 79508d8ccec7a6f478a85a0ed672ebb2,
     type: 2}
+  sceneName: Home
   ttsSpeech: {fileID: 463509306}
   output: []
   topGridSpace: []
@@ -1927,7 +1928,7 @@ Prefab:
     - target: {fileID: 114071776316616298, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224568099930665910, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
@@ -2268,7 +2269,7 @@ Prefab:
     - target: {fileID: 114071776316616298, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224568099930665910, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
@@ -3050,7 +3051,7 @@ Prefab:
     - target: {fileID: 114071776316616298, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224568099930665910, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
@@ -3491,7 +3492,7 @@ Prefab:
     - target: {fileID: 114071776316616298, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224568099930665910, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
@@ -4067,7 +4068,7 @@ Prefab:
     - target: {fileID: 114071776316616298, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224568099930665910, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
@@ -4403,7 +4404,7 @@ Prefab:
     - target: {fileID: 114071776316616298, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224568099930665910, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
@@ -4857,7 +4858,7 @@ Prefab:
     - target: {fileID: 114071776316616298, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224568099930665910, guid: 566cf354502c6594da5352204a1ecb5d,
         type: 2}

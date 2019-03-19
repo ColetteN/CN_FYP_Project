@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Beach
+  m_Text: ' Beach'
 --- !u!222 &222618153337333814
 CanvasRenderer:
   m_ObjectHideFlags: 1

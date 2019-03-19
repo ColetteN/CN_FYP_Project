@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class TTSmanager : MonoBehaviour {
     private bool _initializeError = false;
-    public string _inputText = " ";
+    public string _inputText = "";
     private int _speechId = 0;
-    private float _pitch = 1f, _speechRate = 1f;
+    private float _pitch = 1f, _speechRate = 0.7f;
     private int _selectedLocale = 0;
     private string[] _localeStrings;
 
@@ -16,6 +16,10 @@ public class TTSmanager : MonoBehaviour {
         // Screen.sleepTimeout = SleepTimeout.NeverSleep;
         TTSManager.Initialize(transform.name, "OnTTSInit");
     }
+
+    void Awake() {
+     DontDestroyOnLoad(this.gameObject);
+ }
    
     
 	public void PlaySpeech(){

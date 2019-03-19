@@ -12,6 +12,8 @@ public class AppManager : MonoBehaviour {
 //empty tile handy for resetting
 public Button emptyTile;
 
+public string sceneName;
+
 [Tooltip("Text To Speech variable")]
 //TTS gameobject
 public GameObject ttsSpeech;
@@ -55,6 +57,9 @@ public Button[] mainGridTiles;
 			mainGridSpace[i].GetComponentInChildren<Text>().text = 
 			mainGridTiles[i].GetComponentInChildren<Text>().text;
         }	
+		StartCoroutine(WaitAndSay());
+
+		
 	}//close the start()
 
 
@@ -122,10 +127,17 @@ void Update(){
 
 
 //Play TTS when single tile is tapped
-	public void playTTS(string text){
-		ttsSpeech.GetComponent<TTSmanager>()._inputText = text;
+	public void playTTS(Button tile){
+		ttsSpeech.GetComponent<TTSmanager>()._inputText = tile.GetComponentInChildren<Text>().text;
 		ttsSpeech.GetComponent<TTSmanager>().PlaySpeech();
-	Debug.Log("text");	
+	}
+
+	private IEnumerator WaitAndSay()
+    {
+		yield return new WaitForSeconds(0.5f);
+		ttsSpeech.GetComponent<TTSmanager>()._inputText = sceneName;
+		ttsSpeech.GetComponent<TTSmanager>().PlaySpeech();
+		Debug.Log(sceneName);
 	}
 
 
