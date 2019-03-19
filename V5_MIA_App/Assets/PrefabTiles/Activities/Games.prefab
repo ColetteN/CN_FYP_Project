@@ -94,7 +94,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Games
+  m_Text: '  Games'
 --- !u!114 &114175518983034006
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Water
+  m_Text: '  Water'
 --- !u!222 &222351052131873404
 CanvasRenderer:
   m_ObjectHideFlags: 1

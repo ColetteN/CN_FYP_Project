@@ -94,7 +94,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dog
+  m_Text: '  Dog'
 --- !u!114 &114429372043127022
 MonoBehaviour:
   m_ObjectHideFlags: 1

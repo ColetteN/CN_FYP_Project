@@ -94,7 +94,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: River
+  m_Text: '  River'
 --- !u!114 &114302565906059580
 MonoBehaviour:
   m_ObjectHideFlags: 1

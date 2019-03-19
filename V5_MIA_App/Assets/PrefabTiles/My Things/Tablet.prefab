@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tablet
+  m_Text: '  Tablet'
 --- !u!222 &222533411591404716
 CanvasRenderer:
   m_ObjectHideFlags: 1

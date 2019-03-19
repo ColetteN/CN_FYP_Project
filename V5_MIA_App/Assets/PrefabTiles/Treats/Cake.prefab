@@ -94,7 +94,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cake
+  m_Text: '  Cake'
 --- !u!114 &114607550428316068
 MonoBehaviour:
   m_ObjectHideFlags: 1

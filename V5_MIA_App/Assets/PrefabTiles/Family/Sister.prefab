@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sister
+  m_Text: '  Sister'
 --- !u!222 &222113430353369768
 CanvasRenderer:
   m_ObjectHideFlags: 1

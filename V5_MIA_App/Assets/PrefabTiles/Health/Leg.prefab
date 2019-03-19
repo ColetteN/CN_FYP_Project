@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Leg
+  m_Text: '  Leg'
 --- !u!222 &222156002049036018
 CanvasRenderer:
   m_ObjectHideFlags: 1

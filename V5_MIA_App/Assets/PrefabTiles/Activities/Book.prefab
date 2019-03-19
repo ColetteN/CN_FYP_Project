@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ' Book'
+  m_Text: '  Book'
 --- !u!222 &222131690041016326
 CanvasRenderer:
   m_ObjectHideFlags: 1

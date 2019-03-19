@@ -94,7 +94,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Countryside
+  m_Text: '  Countryside'
 --- !u!114 &114204175080005520
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Chocolate
+  m_Text: '  Chocolate'
 --- !u!222 &222127117063070160
 CanvasRenderer:
   m_ObjectHideFlags: 1

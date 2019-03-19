@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Burger
+  m_Text: '  Burger'
 --- !u!222 &222095506650061356
 CanvasRenderer:
   m_ObjectHideFlags: 1

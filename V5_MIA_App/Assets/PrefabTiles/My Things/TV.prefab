@@ -121,7 +121,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Television
+  m_Text: '  TV'
 --- !u!114 &114942460620499218
 MonoBehaviour:
   m_ObjectHideFlags: 1

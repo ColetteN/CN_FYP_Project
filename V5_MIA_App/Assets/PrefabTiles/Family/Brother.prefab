@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Brother
+  m_Text: '  Brother'
 --- !u!222 &222750382462029422
 CanvasRenderer:
   m_ObjectHideFlags: 1

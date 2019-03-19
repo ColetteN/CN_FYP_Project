@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shorts
+  m_Text: '  Shorts'
 --- !u!222 &222511266392261574
 CanvasRenderer:
   m_ObjectHideFlags: 1

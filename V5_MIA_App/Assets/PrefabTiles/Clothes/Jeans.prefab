@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jeans
+  m_Text: '  Jeans'
 --- !u!222 &222499205167499276
 CanvasRenderer:
   m_ObjectHideFlags: 1

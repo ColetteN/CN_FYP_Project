@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Socks
+  m_Text: '  Socks'
 --- !u!222 &222368276144798778
 CanvasRenderer:
   m_ObjectHideFlags: 1

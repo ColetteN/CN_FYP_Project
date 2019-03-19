@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Wheelchair
+  m_Text: '  Wheelchair'
 --- !u!222 &222195800902523898
 CanvasRenderer:
   m_ObjectHideFlags: 1

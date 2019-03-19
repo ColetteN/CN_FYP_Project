@@ -232,10 +232,9 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63b3fa2a4056d00459bc1554f66287ee, type: 2}
   m_IsPrefabAsset: 0
---- !u!224 &53795439 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 224153980763832288, guid: 63b3fa2a4056d00459bc1554f66287ee,
-    type: 2}
+--- !u!4 &53795439 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 53795438}
 --- !u!1 &73299804
 GameObject:
@@ -3229,7 +3228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emptyTile: {fileID: 0}
-  sceneName: 
+  sceneName: My Things
   ttsSpeech: {fileID: 1057863833}
   output: []
   topGridSpace: []

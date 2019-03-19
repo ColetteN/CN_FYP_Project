@@ -6670,10 +6670,9 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63b3fa2a4056d00459bc1554f66287ee, type: 2}
   m_IsPrefabAsset: 0
---- !u!224 &1095886229 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 224153980763832288, guid: 63b3fa2a4056d00459bc1554f66287ee,
-    type: 2}
+--- !u!4 &1095886229 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1095886228}
 --- !u!1001 &1156705414
 Prefab:
@@ -10482,7 +10481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emptyTile: {fileID: 0}
-  sceneName: 
+  sceneName: Food
   ttsSpeech: {fileID: 1812727598}
   output: []
   topGridSpace: []

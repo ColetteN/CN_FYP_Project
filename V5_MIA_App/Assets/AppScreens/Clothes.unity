@@ -6024,7 +6024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emptyTile: {fileID: 0}
-  sceneName: 
+  sceneName: Clothes
   ttsSpeech: {fileID: 1764397328}
   output: []
   topGridSpace: []

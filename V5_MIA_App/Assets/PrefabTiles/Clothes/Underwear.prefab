@@ -94,7 +94,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Underwear
+  m_Text: '  Underwear'
 --- !u!114 &114878169560163110
 MonoBehaviour:
   m_ObjectHideFlags: 1

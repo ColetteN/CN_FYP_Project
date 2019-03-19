@@ -121,7 +121,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cold
+  m_Text: '  Cold'
 --- !u!114 &114833542108438866
 MonoBehaviour:
   m_ObjectHideFlags: 1

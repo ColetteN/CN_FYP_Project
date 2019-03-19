@@ -173,7 +173,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Laptop
+  m_Text: '  Laptop'
 --- !u!222 &222078655753459972
 CanvasRenderer:
   m_ObjectHideFlags: 1

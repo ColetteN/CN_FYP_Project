@@ -94,7 +94,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ice cream
+  m_Text: '  Icecream'
 --- !u!114 &114313792682842480
 MonoBehaviour:
   m_ObjectHideFlags: 1

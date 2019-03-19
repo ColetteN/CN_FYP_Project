@@ -94,7 +94,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cereal
+  m_Text: '  Cereal'
 --- !u!114 &114417501119681636
 MonoBehaviour:
   m_ObjectHideFlags: 1
