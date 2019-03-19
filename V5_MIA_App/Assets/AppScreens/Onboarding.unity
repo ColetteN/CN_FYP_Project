@@ -808,7 +808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emptyTile: {fileID: 0}
-  sceneName: Welcome to the Mia app
+  sceneName: Choose a category
   ttsSpeech: {fileID: 1056253229}
   output: []
   topGridSpace: []
@@ -828,7 +828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emptyTile: {fileID: 114996474775891552, guid: 79508d8ccec7a6f478a85a0ed672ebb2,
     type: 2}
-  sceneName: Welcome to the MIA app
+  sceneName: Choose a category
   ttsSpeech: {fileID: 1056253229}
   output: []
   topGridSpace:

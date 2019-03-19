@@ -6,12 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class AppManager : MonoBehaviour {
 
-
+//public variables
 [Header("VARIABLES")]
 [Tooltip("empty tile handy for resetting")]
 //empty tile handy for resetting
 public Button emptyTile;
 
+//store the scene name for the home page here
 public string sceneName;
 
 [Tooltip("Text To Speech variable")]
@@ -56,7 +57,9 @@ public Button[] mainGridTiles;
 			//each text into each gridspace
 			mainGridSpace[i].GetComponentInChildren<Text>().text = 
 			mainGridTiles[i].GetComponentInChildren<Text>().text;
-        }	
+        }
+
+		//delay the speech for the scene name 	
 		StartCoroutine(WaitAndSay());
 
 		
@@ -126,15 +129,16 @@ void Update(){
 	}
 
 
-//Play TTS when single tile is tapped
+//Play TTS when a single tile is tapped
 	public void playTTS(Button tile){
 		ttsSpeech.GetComponent<TTSmanager>()._inputText = tile.GetComponentInChildren<Text>().text;
 		ttsSpeech.GetComponent<TTSmanager>().PlaySpeech();
 	}
 
+//Play TTS when categories on the home page are tapped
 //Wait before TTS begins create a short delay
 	private IEnumerator WaitAndSay() {
-		yield return new WaitForSeconds(0.3f);
+		yield return new WaitForSeconds(0.5f);
 		ttsSpeech.GetComponent<TTSmanager>()._inputText = sceneName;
 		ttsSpeech.GetComponent<TTSmanager>().PlaySpeech();
 		Debug.Log(sceneName);
