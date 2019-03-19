@@ -132,13 +132,19 @@ void Update(){
 		ttsSpeech.GetComponent<TTSmanager>().PlaySpeech();
 	}
 
-	private IEnumerator WaitAndSay()
-    {
-		yield return new WaitForSeconds(0.5f);
+//Wait before TTS begins create a short delay
+	private IEnumerator WaitAndSay() {
+		yield return new WaitForSeconds(0.3f);
 		ttsSpeech.GetComponent<TTSmanager>()._inputText = sceneName;
 		ttsSpeech.GetComponent<TTSmanager>().PlaySpeech();
 		Debug.Log(sceneName);
 	}
+
+	void QuitGame () {
+ 		Application.Quit ();
+		//Just to make sure its working
+		Debug.Log("Game is exiting");
+ 	}
 
 
 }//class closed here
