@@ -392,7 +392,7 @@ GameObject:
   - component: {fileID: 527134572}
   - component: {fileID: 527134571}
   m_Layer: 5
-  m_Name: MIA
+  m_Name: Me App Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,8 +413,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -139}
-  m_SizeDelta: {x: 274, y: 62.4}
+  m_AnchoredPosition: {x: 8.1, y: -153}
+  m_SizeDelta: {x: 282.2, y: 91.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &527134571
 MonoBehaviour:
@@ -437,20 +437,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 79165f74efbd8d545952086483effbcc, type: 3}
-    m_FontSize: 50
+    m_FontSize: 55
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'MIA
-
-'
+  m_Text: Me App
 --- !u!222 &527134572
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -492,8 +490,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -324.5}
-  m_SizeDelta: {x: 160, y: 71.7}
+  m_AnchoredPosition: {x: 8.1, y: -319.1}
+  m_SizeDelta: {x: 166.2, y: 90.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &573228083
 MonoBehaviour:
@@ -760,7 +758,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 79165f74efbd8d545952086483effbcc, type: 3}
-    m_FontSize: 32
+    m_FontSize: 42
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -923,7 +921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.7701354, g: 0.61089355, b: 0.9056604, a: 0.32941177}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
